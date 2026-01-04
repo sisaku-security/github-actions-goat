@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Setup sisakulint
-        uses: ./.github/actions/setup-sisakulint
+        uses: sisaku-security/setup-sisakulint@v1
         with:
           sisakulint_version: 0.0.9
       - name: Run sisakulint
